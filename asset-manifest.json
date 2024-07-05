@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.08442187.css",
+    "main.js": "/static/js/main.bf14685f.js",
+    "static/media/MainPageBg.jpg": "/static/media/MainPageBg.93c0d919e96aaabff67d.jpg",
+    "static/media/DefaultPageBg.jpg": "/static/media/DefaultPageBg.5271438acba994111515.jpg",
+    "static/media/DefaultPageBgDarkTheme.jpg": "/static/media/DefaultPageBgDarkTheme.bbd25cda6f1ebb45331f.jpg",
+    "static/media/AboutChargesLearnMoreBg.jpg": "/static/media/AboutChargesLearnMoreBg.b25131945c7e89b5b341.jpg",
+    "static/media/VersalitylearnMoreBg.jpg": "/static/media/VersalitylearnMoreBg.b25131945c7e89b5b341.jpg",
+    "static/media/MainPageBgDarkTheme.jpg": "/static/media/MainPageBgDarkTheme.d93fabe03177c259b0b8.jpg",
+    "static/media/AboutChargesLearnMoreBgDarkTheme.jpg": "/static/media/AboutChargesLearnMoreBgDarkTheme.d332664a22a834a0f65b.jpg",
+    "static/media/VersalitylearnMoreBgDarkTheme.jpg": "/static/media/VersalitylearnMoreBgDarkTheme.d332664a22a834a0f65b.jpg",
+    "static/media/scr2.png": "/static/media/scr2.02069a7096ac6e815ce4.png",
+    "static/media/scr3.png": "/static/media/scr3.e0e3796850fc2bb1eaf6.png",
+    "static/media/scr1.png": "/static/media/scr1.f5e8316cc43cc1279183.png",
+    "static/media/Wallet.png": "/static/media/Wallet.2176c0d28cc0c34086c7.png",
+    "static/media/3.png": "/static/media/3.dc7f3c024c2a0104a4ae.png",
+    "static/media/4.png": "/static/media/4.a02411218b95eb3c4646.png",
+    "static/media/2.png": "/static/media/2.dd8eea8e0dd5cdd86773.png",
+    "static/media/1.png": "/static/media/1.af0ef42ac5104c1c3ba3.png",
+    "static/media/DarkTheme.png": "/static/media/DarkTheme.8129ab9835404e1ce67b.png",
+    "static/media/LightTheme.png": "/static/media/LightTheme.6277057d4f8bd6eff8dd.png",
+    "static/media/Ton.png": "/static/media/Ton.875158a750318d207792.png",
+    "static/media/USDT.png": "/static/media/USDT.86e7f3ce90d1def4dfd1.png",
+    "static/media/Not.jpg": "/static/media/Not.e257ac4b18871885d6e8.jpg",
+    "static/media/ArrowHome.png": "/static/media/ArrowHome.8e9200b779ace412c5fb.png",
+    "index.html": "/index.html",
+    "main.08442187.css.map": "/static/css/main.08442187.css.map",
+    "main.bf14685f.js.map": "/static/js/main.bf14685f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08442187.css",
+    "static/js/main.bf14685f.js"
+  ]
+}
