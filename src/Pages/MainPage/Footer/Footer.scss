@@ -1,0 +1,38 @@
+$main-text-color: rgb(14, 107, 168);
+
+.FooterWrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    .FooterContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .FooterLinks {
+            a {
+                padding: 30px;
+                text-decoration: none;
+                color: $main-text-color;
+            }
+        }
+
+        .FooterText {
+            padding-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .FooterLinks{
+        a{
+            font-size: 15px !important;
+            padding: 20px !important;
+        }
+    }
+    .FooterText{
+        font-size: 15px !important;
+    }
+}

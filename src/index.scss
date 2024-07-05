@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+
+  &.darkTheme {
+
+
+    .DefaultPage {
+      background-image: url('./data/img/DefaultPage/DefaultPageBgDarkTheme.jpg');
+      transition: background-image 1s ease-in-out, color 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .HeaderWrapper {
+      a {
+        color: white !important;
+      }
+    }
+
+    .MainPage {
+      background-image: url('./data/img/MainPage/MainPageBgDarkTheme.jpg');
+      transition: background-image 1s ease-in-out, color 1s ease-in-out, transform 1s ease-in-out;
+    }
+
+    .AboutBatteryWrapper {
+      color: rgb(137, 148, 163) !important;
+    }
+
+    .ServicesContent {
+      color: rgb(137, 148, 163) !important;
+    }
+
+    .LinkButton {
+      color: rgb(0, 0, 0) !important;
+    }
+
+    .Button {
+      color: rgb(0, 0, 0) !important;
+    }
+
+    .VersalityLearnMoreWrapper {
+      background-image: url('./data/img/MainPage/Versality/LearnMore/VersalitylearnMoreBgDarkTheme.jpg');
+    }
+
+    .TextWrapper {
+      h1 {
+        color: rgb(137, 148, 163) !important;
+      }
+    }
+
+    .TextAboutSupportedСoins {
+      h1 {
+        color: white
+      }
+    }
+
+    .DarkThemeButton {
+      img {
+        height: 60px !important;
+      }
+    }
+
+    .AgitationText {
+      span {
+        color: rgb(137, 148, 163) !important;
+      }
+    }
+
+    .AboutChargesLearnMoreWrapper {
+      background-image: url('./data/img/MainPage/AboutCharges/AboutChargesLearnMore/AboutChargesLearnMoreBgDarkTheme.jpg');
+    }
+
+    .TextAboutSteps {
+      h1 {
+        color: white !important;
+      }
+    }
+
+    .FooterLinks {
+      a {
+        color: white !important;
+      }
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

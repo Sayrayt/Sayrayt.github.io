@@ -1,0 +1,200 @@
+.AboutChargesLearnMoreWrapper {
+    background-image: url('../../../../../data/img/MainPage/AboutCharges/AboutChargesLearnMore/AboutChargesLearnMoreBg.jpg');
+    border-radius: 25px;
+    display: flex;
+    margin: 10px;
+
+
+    .AboutChargesLearnMoreContent {
+        width: 1100px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .StepsWrapper {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+
+            .Step1Wrapper,
+            .Step2Wrapper,
+            .Step3Wrapper {
+                padding: 20px;
+
+                h2 {
+                    color: white;
+                }
+
+                .Step1Content,
+                .Step2Content,
+                .Step3Content {
+                    display: flex;
+                    flex-direction: column;
+
+                    span {
+                        padding: 10px 10px 10px 0;
+                        font-size: 20px;
+                    }
+
+                }
+
+                .Step1Content {
+                    img {
+                        border-radius: 20px;
+                        animation-name: ScaleStep;
+                        animation-duration: 2s;
+                        animation-delay: 1s;
+                        animation-iteration-count: 1;
+                        animation-timing-function: linear;
+                        animation-direction: alternate;
+                        height: 300px;
+                        width: 300px;
+                    }
+                }
+
+                .Step2Content {
+                    img {
+                        border-radius: 20px;
+                        animation-name: ScaleStep;
+                        animation-duration: 2s;
+                        animation-delay: 2s;
+                        animation-iteration-count: 1;
+                        animation-timing-function: linear;
+                        animation-direction: alternate;
+                        height: 460px;
+                        width: 300px;
+                    }
+                }
+
+                .Step3Content {
+                    img {
+                        border-radius: 20px;
+                        animation-name: ScaleStep;
+                        animation-duration: 2s;
+                        animation-delay: 3s;
+                        animation-iteration-count: 1;
+                        animation-timing-function: linear;
+                        animation-direction: alternate;
+                        height: 460px;
+                        width: 300px;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@keyframes ScaleStep {
+    50% {
+        scale: 1.04;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .AboutChargesLearnMoreWrapper {
+
+        .AboutChargesLearnMoreContent {
+            width: 100% !important;
+        }
+
+        .StepsWrapper {
+            .Step1Wrapper {
+                .Step1Content {
+                    img {
+                        height: 250px !important;
+                        width: 250px !important;
+                    }
+                }
+            }
+
+            .Step2Wrapper,
+            .Step3Wrapper {
+
+                .Step2Content,
+                .Step3Content {
+                    img {
+                        height: 340px !important;
+                        width: 250px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .AboutChargesLearnMoreWrapper {
+
+        .AboutChargesLearnMoreContent {
+            width: 100% !important;
+        }
+
+        .StepsWrapper {
+            .Step1Wrapper {
+                .Step1Content {
+                    img {
+                        height: 200px !important;
+                        width: 200px !important;
+                    }
+                }
+            }
+
+            .Step2Wrapper,
+            .Step3Wrapper {
+
+                .Step2Content,
+                .Step3Content {
+                    img {
+                        height: 300px !important;
+                        width: 200px !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .StepsWrapper {
+        flex-direction: column !important;
+
+        // text-align: justify !important;
+        .Step1Wrapper {
+            .Step1Content {
+                img {
+                    display: none !important;
+                }
+            }
+        }
+
+        .Step2Wrapper,
+        .Step3Wrapper {
+
+            .Step2Content,
+            .Step3Content {
+                img {
+                    display: none !important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .AboutChargesLearnMoreContent{
+        .TextAboutSteps{
+            h1{
+                font-size: 25px !important;
+                padding-top: 30px !important;
+            }
+        }
+    }
+}

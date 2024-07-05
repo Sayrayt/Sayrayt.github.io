@@ -1,0 +1,95 @@
+.Modal {
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.75);
+
+    .ModalContent {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ExitLight {
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .ExitDark {
+        filter: invert(100%);
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+}
+
+@media (max-width: 2560px) {
+    .ExitLight {
+        right: 20px !important;
+        top: 20px !important;
+    }
+
+    .ExitDark {
+        right: 20px !important;
+        top: 20px !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .ExitLight {
+        right: 20px !important;
+        top: 20px !important;
+    }
+
+    .ExitDark {
+        right: 20px !important;
+        top: 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .ExitLight {
+        right: 20px !important;
+        top: 20px !important;
+    }
+
+    .ExitDark {
+        right: 20px !important;
+        top: 20px !important;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .ExitLight,
+    .ExitDark {
+        height: 30px !important;
+        width: 30px !important;
+    }
+
+
+}

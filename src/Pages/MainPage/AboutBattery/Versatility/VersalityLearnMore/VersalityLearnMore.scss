@@ -1,0 +1,158 @@
+// $main-bg-color: rgb(255, 255, 255);
+$h1-text-color: rgb(14, 107, 168);
+
+@import '~bootstrap/scss/bootstrap';
+
+.VersalityLearnMoreWrapper {
+    background-image: url('../../../../../data/img//MainPage/Versality/LearnMore/VersalitylearnMoreBg.jpg');
+    width: 700px;
+    border-radius: 25px;
+
+    .VersalityLearnMoreContent {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .TextWrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            h1 {
+                color: $h1-text-color;
+                font-size: 40px;
+
+                span {
+                    color: white;
+                    font-size: 40px;
+                }
+            }
+
+            span {
+                font-size: 22px;
+            }
+
+            a {
+                text-decoration: none;
+                color: rgb(255, 255, 255);
+                transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+                &:hover {
+                    transform: scale(1.1);
+                    text-decoration: solid underline;
+                }
+            }
+        }
+
+        .SupportedСoinsWrapper {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+
+            .TextAboutSupportedСoins {
+                padding-bottom: 30px;
+                display: flex;
+                justify-content: flex-start;
+            }
+
+            .CarouselWrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .Carousel {
+                    width: 200px;
+                    display: flex;
+                    flex-direction: column;
+
+                    img {
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .VersalityLearnMoreWrapper {
+        width: 100% !important;
+        margin: 15px !important;
+
+        .TextWrapper {
+            h1 {
+                font-size: 30px !important;
+
+                span {
+                    font-size: 30px !important;
+                }
+            }
+
+            span {
+                font-size: 20px !important;
+            }
+        }
+    }
+
+
+    .SupportedСoinsWrapper {
+        .TextAboutSupportedСoins {
+            h1 {
+                font-size: 30px !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+
+    .TextWrapper {
+        padding-top: 50px !important;
+
+        h1 {
+            font-size: 20px !important;
+
+            span {
+                font-size: 20px !important;
+            }
+        }
+
+        span {
+            font-size: 15px !important;
+        }
+    }
+}
+
+@media (max-width: 376px) {
+    .VersalityLearnMoreWrapper {
+        .TextWrapper {
+            padding-top: 40px !important;
+
+            h1 {
+                font-size: 20px !important;
+
+                span {
+                    font-size: 20px !important;
+                }
+            }
+
+            span {
+                font-size: 15px !important;
+            }
+        }
+
+        .TextAboutSupportedСoins {
+            h1 {
+                font-size: 20px !important;
+            }
+        }
+
+        .Carousel {
+            width: 150px !important;
+        }
+    }
+
+
+}

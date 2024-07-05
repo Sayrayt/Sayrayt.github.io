@@ -1,0 +1,29 @@
+.MainPage {
+    transition: background-image 1s ease-in-out, color 1s ease-in-out, transform 1s ease-in-out;
+    background-image: url('../../data/img/MainPage/MainPageBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+
+    .MainPageContent {
+        padding: 0 150px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .MainPageContent {
+        padding: 0 70px !important;
+    }
+}
+
+@media (max-width: 1010px) {
+    .MainPageContent {
+        padding: 0 20px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .MainPageContent {
+        padding: 0 15px !important;
+    }
+}

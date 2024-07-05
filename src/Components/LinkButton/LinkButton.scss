@@ -1,0 +1,66 @@
+$bg-btn-color: rgb(255, 255, 255);
+$main-text-color: rgb(14, 107, 168);
+
+.LinkButton {
+    text-decoration: none;
+    padding: 14px 24px 14px 20px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: $main-text-color;
+    background: $bg-btn-color;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    &__Outline {
+        border: 1px solid $bg-btn-color;
+        background-color: white;
+        color: $bg-btn-color;
+
+        &:hover {
+            background: $bg-btn-color;
+            color: white;
+        }
+    }
+}
+
+@media (max-width: 1190px) {
+    .LinkButton{
+        margin: 10px;
+    }
+}
+
+@media (max-width: 990px) {
+    .LinkButton {
+        font-size: 16px;
+        padding: 12px 22px 12px 18px;
+    }
+}
+
+@media (max-width: 920px) {
+    .LinkButton {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .LinkButton {
+        font-size: 13px;
+    }
+}

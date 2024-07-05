@@ -1,0 +1,146 @@
+$main-text-color: rgb(14, 107, 168);
+$nav-font-family: 'Roboto', sans-serif;
+
+.BatteryTaglineWrapper {
+    padding: 160px 0 150px 0;
+    display: flex;
+    justify-content: center;
+    color: $main-text-color;
+    font-family: $nav-font-family;
+
+    .AboutBatteryContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translate(-2%, 0);
+
+        .LogoWrapper {
+            padding: 10px;
+        }
+
+        .MainText {
+            display: flex;
+            flex-direction: column;
+
+            h1 {
+                font-size: 90px;
+                color: white;
+                letter-spacing: 2px;
+                font-weight: 1000;
+            }
+
+            span {
+                font-size: 30px;
+                font-weight: 1000;
+                letter-spacing: 4px;
+            }
+
+        }
+    }
+}
+
+@media (max-width: 1250px) {
+    .MainText {
+        h1 {
+            font-size: 70px !important;
+        }
+
+        span {
+            font-size: 25px;
+        }
+    }
+
+    .Logo {
+        width: 130px;
+        height: 130px;
+    }
+
+}
+
+@media (max-width: 1050px) {
+    .BatteryTaglineWrapper {
+        padding: 100px 0 160px 0 !important;
+    }
+}
+
+@media (max-width: 1010px) {
+    .BatteryTaglineWrapper {
+        padding: 30px 0 70px 0 !important;
+    }
+
+    .MainText {
+        h1 {
+            font-size: 60px !important;
+        }
+
+        span {
+            font-size: 25px !important;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .MainText {
+        h1 {
+            font-size: 50px !important;
+        }
+
+        span {
+            font-size: 20px !important;
+        }
+    }
+}
+
+@media (max-width: 800px) {
+
+    .BatteryTaglineWrapper {
+        padding: 30px 0 100px 0 !important;
+    }
+    .Logo {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .MainText {
+        h1 {
+            font-size: 40px !important;
+        }
+
+        span {
+            font-size: 15px !important;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .BatteryTaglineWrapper {
+        padding: 30px 0 40px 0 !important;
+    }
+    .Logo {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    .MainText {
+        align-items: center !important; 
+        h1 {
+            font-size: 30px !important;
+        }
+
+        span {
+            font-size: 13px !important;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .MainText {
+        align-items: center !important; 
+        h1 {
+            font-size: 30px !important;
+        }
+
+        span {
+            font-weight: 0 !important;
+            letter-spacing: 2px !important;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+$main-text-color: rgb(255, 255, 255);
+$main-font-family: 'Roboto', sans-serif;
+
+.HowItWorksWrapper {
+    .HowItWorksContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: $main-text-color;
+        font-family: $main-font-family;
+    }
+}
+
+@media (max-width: 920px) {
+    .HowItWorksContent{
+        h1{
+            font-size: 30px !important;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.DefaultPage {
+    transition: background-image 1s ease-in-out, color 1s ease-in-out, transform 1s ease-in-out;
+    max-width: 100%;
+    background-image: url('../../data/img/DefaultPage/DefaultPageBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .DefaultPageContent {
+        padding: 0 150px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .DefaultPageContent {
+        padding: 0 70px !important;
+    }
+}
+
+@media (max-width: 1010px) {
+    .DefaultPageContent {
+        padding: 0 20px !important;
+    }
+}
+
+@media (max-width: 375px) {
+    .DefaultPageContent {
+        padding: 0 0px !important;
+    }
+}
